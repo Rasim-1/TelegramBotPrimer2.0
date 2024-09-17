@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  min-width: 1200px;
+}
+
+.hero__wrapper {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 5px;
+}
+.hero__box {
+  background-color: blue;
+  border-radius: 15px;
+  flex-direction: column;
+  gap: 30px;
+}
+.hero__box h1 {
+  font-size: 25px;
+  color: white;
+}
+.hero__btns {
+  flex-wrap: wrap;
+  gap: 3px;
+  display: flex;
+  max-width: 70%;
+}
+.hero__btns button {
+  border-radius: 40px;
+  padding: 7px;
+  background-color: white;
+}
+.hero__info {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv1M2WOmcNVkJQ3YEks4TIWBq2EqrAjKqUeg&s");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#telegramForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: lightblue;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 255, 0.458);
+  max-width: 500px;
+  margin: 30px auto;
+}
+#telegramForm input, #telegramForm button {
+  font-family: fantasy;
+  padding: 20px;
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */
